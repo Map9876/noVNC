@@ -235,7 +235,25 @@ html {
     left: auto;
     right: 0;
 }
+#noVNC_mobile_buttons_fixed {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+}
 
+#noVNC_mobile_buttons_fixed .noVNC_button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
 #noVNC_control_bar {
     position: relative;
     left: -100%;
